@@ -12,5 +12,5 @@
     <color name="background_component_selected">#DBBADD</color>
     <color name="background_app">#D8E1FF</color>
     <color name="background_button">#96CDFF</color>
-    <color name="title_text">#69DDFF</color>
+    <color name="title_text">#F7F7FF</color>
 </resources>
