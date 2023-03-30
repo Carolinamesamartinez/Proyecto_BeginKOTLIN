@@ -1,4 +1,4 @@
-package com.cmesamartinez.proyecto_beginkotlin
+package com.cmesamartinez.proyecto_beginkotlin.sintaxis
 
 fun main(){
     // si name no es nulo dame la pos 3 si no es nullo(print)

@@ -1,4 +1,4 @@
-package com.cmesamartinez.proyecto_beginkotlin
+package com.cmesamartinez.proyecto_beginkotlin.sintaxis
 
 fun main(){
     ifbasico()
