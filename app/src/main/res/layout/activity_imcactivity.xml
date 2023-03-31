@@ -178,13 +178,20 @@
                     android:id="@+id/btnSubtractWeight"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp">
+                    android:src="@drawable/ic_down"
+                    android:layout_marginEnd="16dp"
+                    app:tint="@color/white"
+                    app:backgroundTint="@color/background_button">
 
                 </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/btnPlusWeight"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_up"
+                    app:tint="@color/white"
+                    app:backgroundTint="@color/background_button">
 
                 </com.google.android.material.floatingactionbutton.FloatingActionButton>
             </LinearLayout>
@@ -234,18 +241,39 @@
                 android:orientation="horizontal">
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/btnSubtractAge"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp">
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_down"
+                    app:backgroundTint="@color/background_button"
+                    app:tint="@color/white">
 
                 </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/btnPlusAge"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_up"
+                    app:backgroundTint="@color/background_button"
+                    app:tint="@color/white">
 
                 </com.google.android.material.floatingactionbutton.FloatingActionButton>
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnCalcularIMC"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/background_button"
+        android:text="@string/calculate"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Button>
 </androidx.constraintlayout.widget.ConstraintLayout>

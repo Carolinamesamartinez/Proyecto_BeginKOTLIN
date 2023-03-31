@@ -13,4 +13,8 @@
     <color name="background_app">#D8E1FF</color>
     <color name="background_button">#96CDFF</color>
     <color name="title_text">#F7F7FF</color>
+    <color name="lowweight">#BBACC1</color>
+    <color name="normalweight">#80727B</color>
+    <color name="overweight">#909580</color>
+    <color name="over2weight">#545643</color>
 </resources>
