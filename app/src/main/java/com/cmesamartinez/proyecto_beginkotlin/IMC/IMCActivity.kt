@@ -82,19 +82,19 @@ class IMCActivity : AppCompatActivity() {
             textView_Height.text="$currentHeight cm "
         }
         btnSubtractWeight.setOnClickListener{
-            currentWeight += 1
-            setweight()
-        }
-        btnPlusWeight.setOnClickListener{
             currentWeight -= 1
             setweight()
         }
+        btnPlusWeight.setOnClickListener{
+            currentWeight += 1
+            setweight()
+        }
         btnSubtractAge.setOnClickListener {
-            currentAge-1
+            currentAge-=1
             setAge()
         }
         btnPlusAge.setOnClickListener {
-            currentAge-1
+            currentAge+= 1
             setAge()
         }
         btnCalculate.setOnClickListener {
