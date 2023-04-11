@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@color/background_todo_app"
+    android:padding="16dp"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/etTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addtasktext">
+
+    </EditText>
+    <RadioGroup
+        android:id="@+id/rgCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbBusiness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogbusiness"
+            android:checked="true"
+            android:textColor="@color/TodoApp_text"
+            android:buttonTint="@color/business_category"
+            >
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rbPersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogpersonal"
+            android:textColor="@color/TodoApp_text"
+            android:buttonTint="@color/personal_category"
+            >
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rbOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogother"
+            android:textColor="@color/TodoApp_text"
+            android:buttonTint="@color/other_category"
+            >
+
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/accent"
+        android:text="@string/addbtntasktext">
+
+    </Button>
+</LinearLayout>

@@ -23,6 +23,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44sp"
         android:backgroundTint="#3F51B5"
-        android:text="HI_APP"
+        android:text="IMC_APP"
+        android:textColor="@color/white" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_TODOApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44sp"
+        android:backgroundTint="#3F51B5"
+        android:text="TODO_App"
         android:textColor="@color/white" />
 </LinearLayout>

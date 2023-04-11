@@ -12,6 +12,11 @@
         android:theme="@style/Theme.Proyecto_BeginKOTLIN"
         tools:targetApi="31">
         <activity
+            android:name=".TODOApp.TodoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TodoApp"
+            />
+        <activity
             android:name=".IMC.ResultIMCActivity"
             android:exported="false" />
         <activity
