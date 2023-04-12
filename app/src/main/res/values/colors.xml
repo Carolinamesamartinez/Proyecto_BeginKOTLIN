@@ -27,5 +27,8 @@
     <color name="personal_category">#EDBBB4</color>
     <color name="other_category">#EDD2E0</color>
     <color name="TodoApp_text">#DA9F93</color>
+<!-- superheroApp COLORS-->
+    <color name="superheroApp_item_text">#8CDA9F93</color>
+
 
 </resources>

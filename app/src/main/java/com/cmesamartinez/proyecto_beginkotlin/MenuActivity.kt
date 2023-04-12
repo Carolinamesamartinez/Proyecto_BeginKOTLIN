@@ -8,6 +8,7 @@ import com.cmesamartinez.proyecto_beginkotlin.IMC.IMCActivity
 import com.cmesamartinez.proyecto_beginkotlin.TODOApp.TodoActivity
 import com.cmesamartinez.proyecto_beginkotlin.apps.MainActivity
 import com.cmesamartinez.proyecto_beginkotlin.apps.ResultActivity
+import com.cmesamartinez.proyecto_beginkotlin.superheroeapp.SuperHeroeListActivity
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,6 +17,7 @@ class MenuActivity : AppCompatActivity() {
         val button_goHiApp = findViewById<AppCompatButton>(R.id.button_goHiApp)
         val button_IMCApp = findViewById<AppCompatButton>(R.id.button_IMCApp)
         val button_TODOApp=findViewById<AppCompatButton>(R.id.button_TODOApp)
+        val button_superhero_App=findViewById<AppCompatButton>(R.id.button_superhero)
         button_goHiApp.setOnClickListener{
             navigateToHiApp()
         }
@@ -24,6 +26,9 @@ class MenuActivity : AppCompatActivity() {
         }
         button_TODOApp.setOnClickListener{
             navigateToDOApp()
+        }
+        button_superhero_App.setOnClickListener{
+            navigateToSuperHeroApp()
         }
     }
 
@@ -39,5 +44,10 @@ class MenuActivity : AppCompatActivity() {
         val intent = Intent(this, IMCActivity::class.java)
         startActivity(intent)
     }
+    private fun navigateToSuperHeroApp(){
+        val intent = Intent(this, SuperHeroeListActivity::class.java)
+        startActivity(intent)
+    }
+
 
 }
