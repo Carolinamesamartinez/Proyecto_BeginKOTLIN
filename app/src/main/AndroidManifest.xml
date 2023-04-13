@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Proyecto_BeginKOTLIN"
         tools:targetApi="31">
         <activity
+            android:name=".settings.SettingsActivity"
+            android:exported="false" />
+        <activity
             android:name=".superheroeapp.DetailSuperheroActivity"
             android:exported="false" />
         <activity
