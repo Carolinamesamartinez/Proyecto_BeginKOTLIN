@@ -11,4 +11,5 @@ interface ApiService {
     suspend fun getSuperHeroeDetail(@Path("id") superheroName:String):Response<SuperHeroDetailResponse>
 
 
+
 }

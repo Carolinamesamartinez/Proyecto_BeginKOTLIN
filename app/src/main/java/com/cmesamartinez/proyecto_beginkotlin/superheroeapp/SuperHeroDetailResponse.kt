@@ -2,7 +2,11 @@ package com.cmesamartinez.proyecto_beginkotlin.superheroeapp
 
 import com.google.gson.annotations.SerializedName
 
-data class SuperHeroDetailResponse(@SerializedName("name") val name:String,@SerializedName("powerstats") val powerstats:PowerStatsResponse,@SerializedName("image") val image:SuperHeroImageDetailResponse)
+data class SuperHeroDetailResponse(@SerializedName("name") val name:String
+,@SerializedName("powerstats") val powerstats:PowerStatsResponse
+,@SerializedName("image") val image:SuperHeroImageDetailResponse
+,@SerializedName("biography") val biography: Biography
+)
 data class PowerStatsResponse(
     @SerializedName("intelligence") val intelligence:String,
     @SerializedName("strength") val strength:String,
@@ -13,3 +17,5 @@ data class PowerStatsResponse(
     )
 
 data class SuperHeroImageDetailResponse(@SerializedName("url") val url:String)
+data class Biography(@SerializedName("full-name") val fullName:String,
+@SerializedName("publisher") val publisher:String)

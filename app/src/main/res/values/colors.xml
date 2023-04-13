@@ -28,7 +28,12 @@
     <color name="other_category">#EDD2E0</color>
     <color name="TodoApp_text">#DA9F93</color>
 <!-- superheroApp COLORS-->
-    <color name="superheroApp_item_text">#8CDA9F93</color>
+    <color name="superhero_stat_intelligence">#69DDFF</color>
+    <color name="superhero_stat_strength">#96CDFF</color>
+    <color name="superhero_stat_speed">#D8E1FF</color>
+    <color name="superhero_stat_durability">#DBBADD</color>
+    <color name="superhero_stat_power">#BE92A2</color>
+    <color name="superhero_stat_combat">#D9C5B2</color>
 
 
 </resources>
